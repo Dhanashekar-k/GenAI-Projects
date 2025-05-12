@@ -173,3 +173,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+6.Gmail_assisstant/credentials.json
+6.Gmail_assisstant\token.json

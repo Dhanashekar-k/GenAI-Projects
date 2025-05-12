@@ -26,3 +26,7 @@ validators
 numexpr
 pytube
 openai
+langchainhub
+google-api-python-client
+google-auth-oauthlib
+google-auth-httplib2
