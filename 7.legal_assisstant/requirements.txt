@@ -26,4 +26,10 @@ validators
 numexpr
 pytube
 openai
-hnswlib
+langchainhub
+google-api-python-client
+google-auth-oauthlib
+google-auth-httplib2
+transformers
+accelerate
+sentencepiece
