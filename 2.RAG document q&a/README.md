@@ -1,17 +1,17 @@
-# 📄🧠 RAG-Powered Q&A with Groq and LLaMA3
+#  RAG-Powered Q&A with Groq and LLaMA3
 
 This repository provides a lightweight **Retrieval-Augmented Generation (RAG)** application built with **LangChain**, **Streamlit**, and **Groq's LLaMA3**. It enables users to upload research papers and ask questions grounded in the content of those documents.
 
 ---
 
-## ⚙️ Environment Setup
+##  Environment Setup
 
 ### 1. Create Conda Environment
 
 ```bash
 conda create -p ./genai python=3.10 -y
 conda activate ./genai
-
+```
 ### 2. Set Up Environment Variables
 
 Create a `.env` file in the root directory with the following:
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧪 Running the Application
+##  Running the Application
 
 Make sure your PDF documents are placed inside a folder named `./pdfs`.
 
@@ -41,7 +41,7 @@ streamlit run app.py
 
 ---
 
-## 🧪 Features
+##  Features
 
 - Upload multiple PDF files into the `./pdfs` folder.
 - Generate vector embeddings using OpenAI Embeddings and store them with FAISS.

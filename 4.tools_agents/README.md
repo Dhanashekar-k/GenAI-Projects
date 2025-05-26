@@ -1,4 +1,4 @@
-# 🤖 Chat Agent with Wikipedia, Arxiv, and Web Search (Groq + LangChain + Streamlit)
+#  Chat Agent with Wikipedia, Arxiv, and Web Search (Groq + LangChain + Streamlit)
 
 This project is a Streamlit-based chatbot powered by **LangChain** and **Groq's LLaMA3-8B**, capable of:
 - Answering questions using live Wikipedia and Arxiv data
@@ -7,7 +7,7 @@ This project is a Streamlit-based chatbot powered by **LangChain** and **Groq's 
 
 ---
 
-## 🛠️ Environment Setup
+##  Environment Setup
 
 ### 1. Create Conda Environment
 
@@ -28,7 +28,7 @@ You will be asked to enter the API key through the sidebar input in the app as w
 
 ---
 
-## 📦 Install Requirements
+##  Install Requirements
 
 ```bash
 pip install -r requirements.txt
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Run the App
+##  Run the App
 
 ```bash
 streamlit run app.py
@@ -44,19 +44,19 @@ streamlit run app.py
 
 ---
 
-## 💡 Features
+##  Features
 
 - Uses LangChain’s `initialize_agent` with `CHAT_ZERO_SHOT_REACT_DESCRIPTION` for reasoning
 - Integrates tools:
-  - 🔍 Wikipedia
-  - 📚 Arxiv
-  - 🌐 DuckDuckGo Search
+  -  Wikipedia
+  -  Arxiv
+  -  DuckDuckGo Search
 - Maintains chat history using Streamlit session state
 - Interactive response streaming with callback handler
 
 ---
 
-## 🧰 Tools & Tech
+##  Tools & Tech
 
 - LangChain
 - Groq (LLaMA3-8B)
@@ -64,7 +64,3 @@ streamlit run app.py
 - DuckDuckGo, Wikipedia, Arxiv toolkits
 
 ---
-
-## 📌 Note
-
-This app runs fully client-side and uses ephemeral chat history in memory. Ensure your internet connection is active to allow API calls to Wikipedia, Arxiv, and DuckDuckGo.

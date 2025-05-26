@@ -1,14 +1,14 @@
-# 🤖 Conversational RAG Chatbot with PDF Upload & History (Groq + HuggingFace)
+#  Conversational RAG Chatbot with PDF Upload & History (Groq + HuggingFace)
 
 This project enables a **conversational Retrieval-Augmented Generation (RAG)** interface over one or more PDFs using:
-- 🧠 Groq's Gemma2-9B-Instruct as the LLM
-- 💬 Streamlit for user interaction
-- 📚 FAISS for vector store
-- 🧾 Chat history management per session
+-  Groq's Gemma2-9B-Instruct as the LLM
+-  Streamlit for user interaction
+-  FAISS for vector store
+-  Chat history management per session
 
 ---
 
-## 🛠️ Environment Setup
+##  Environment Setup
 
 ### 1. Create Conda Environment
 
@@ -29,7 +29,7 @@ You will be prompted to enter your **Groq API key** at runtime via the Streamlit
 
 ---
 
-## 📦 Install Requirements
+##  Install Requirements
 
 ```bash
 pip install -r requirements.txt
@@ -37,17 +37,16 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Run the App
+##  Run the App
 
 Make sure your PDFs are ready for upload during the session.
 
 ```bash
 streamlit run app.py
 ```
-
 ---
 
-## 🧠 Features
+##  Features
 
 - Upload one or multiple PDF documents
 - Process documents using `PyPDFLoader` and chunk with `RecursiveCharacterTextSplitter`
@@ -57,5 +56,5 @@ streamlit run app.py
 
 ---
 
-## 🔒 Note
+##  Note
 This application **does not store uploaded PDFs** permanently. Uploaded files are temporarily processed for the session.

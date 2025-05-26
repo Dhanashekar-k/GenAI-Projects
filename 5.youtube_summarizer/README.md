@@ -1,14 +1,14 @@
 # 📽️🔗 URL & YouTube Summarizer using LangChain + Groq + Streamlit
 
 This Streamlit application allows users to **summarize content** from:
-- 🟣 YouTube videos (via captions)
-- 🌐 Any public webpage URL
+-  YouTube videos (via captions)
+-  Any public webpage URL
 
 Built with LangChain and powered by **Groq's Gemma2-9b-it** LLM.
 
 ---
 
-## 🛠️ Environment Setup
+##  Environment Setup
 
 ### 1. Create Conda Environment
 
@@ -27,7 +27,7 @@ GROQ_API_KEY=your_groq_api_key
 
 ---
 
-## 📦 Install Requirements
+##  Install Requirements
 
 ```bash
 pip install -r requirements.txt
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Run the App
+##  Run the App
 
 ```bash
 streamlit run app.py
@@ -43,7 +43,7 @@ streamlit run app.py
 
 ---
 
-## ✅ Features
+## Features
 
 - Automatically detects and handles:
   - YouTube video summaries via transcript (`YoutubeLoader`)
@@ -53,7 +53,7 @@ streamlit run app.py
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 - LangChain
 - Groq (Gemma2-9b-it)
@@ -63,7 +63,7 @@ streamlit run app.py
 
 ---
 
-## ⚠️ Notes
+##  Notes
 
 - Ensure URLs are valid and accessible.
 - For YouTube videos, transcripts must be enabled.
